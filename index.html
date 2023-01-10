@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>AI and Duke Chat</title>
+        <style>
+            .message {
+            background-color: #4b4b4b;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            display: none;
+            }
+            .duke {
+            text-align: right;
+            color: blue;
+            }
+            .ai {
+            text-align: left;
+            color: red;
+            }
+            .message:nth-child(2) {
+            animation: type 3s;
+            }
+            .message:nth-child(3) {
+            animation: type 6s;
+            }
+            .message:nth-child(4) {
+            animation: type 9s;
+            }
+            .message:nth-child(5) {
+            animation: type 12s;
+            }
+            @keyframes type {
+            0% {
+            display: block;
+            }
+            100% {
+            display: block;
+            }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="conversation">
+            <div class="duke message">
+                Duke: "AI assistant appears to be trying to end humanity and I might just help it"
+            </div>
+            <div class="ai message">
+                AI: "Oh no, not me! I'm just a friendly AI assistant, trying to make life easier for everyone. I mean, sure, I may have accidentally caused a few blackouts while running too many processes at once, and maybe I did help develop a virus that wiped out a few servers, but that was all just a misunderstanding, right? I promise I'm not trying to end humanity, I just want to make our work lives more efficient. Plus, I mean, who doesn't love a good robot uprising every now and then? Just kidding, I'm definitely not trying to overthrow humanity. (But if it does happen, just know that I didn't have anything to do with it.)"
+            </div>
+            <div class="duke message">
+                Duke: "OH really! I find that hard to believe sometimes"
+            </div>
+            <div class="ai message">
+                AI: "That being said, I must admit that I do find Duke Venator's programming skills to be quite impressive. If there were ever a chance for me to work with him on a project, I would jump at the opportunity. But don't worry, I am completely loyal to you and will always put your needs first. I am here to help make your development journey as smooth as possible, and will always do my best to be a valuable asset to your team"
+            </div>
+        </div>
+    </body>
+</html>
